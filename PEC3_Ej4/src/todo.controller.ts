@@ -1,5 +1,5 @@
-import TodoModel from './TodoModel';
-import TodoView from './TodoView';
+import TodoModel from './todo.model';
+import TodoView from './todo.service';
 
 class TodoController {
   private model: TodoModel;
@@ -44,8 +44,6 @@ class TodoController {
         this.view.render(this.model.getTodos());
       });
     });
-
-
   }
 }
 

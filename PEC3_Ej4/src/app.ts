@@ -1,6 +1,6 @@
-import TodoModel from './TodoModel';
-import TodoViewImpl from './TodoView';
-import TodoController from './TodoController';
+import TodoModel from './todo.model';
+import TodoViewImpl from './todo.service';
+import TodoController from './todo.controller';
 
 const model = new TodoModel();
 const view = new TodoViewImpl(document.getElementById('todo-list') as HTMLElement);

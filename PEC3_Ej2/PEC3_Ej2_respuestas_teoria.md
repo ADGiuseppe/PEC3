@@ -22,6 +22,7 @@ TypeScript infiere valores basado en el valor literal, en la estructura del obje
 - g como number[] porque es una lista de numeros
 - h es null porque el valor es nulo
 
+
 # code3
 
 El primer error sucede porque la variable i se declaro como constante y por tanto no se puede cambiar.
