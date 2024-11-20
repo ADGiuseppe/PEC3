@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    // Version target para la compilacion.
+    // El codigo TypeScript se compilara a codigo JavaScript segun la especificacion ECMAScript 2015 (ES6)
+    // de manera que no usa caracteristicas implementadas mas adelante
+    "target": "es2015", 
+    // Especifica el module system para usar y importar modulos / librerias JavaScript
+    "module": "commonjs", 
+    // El directorio donde se producen los ficheros JavaScript cuando se compila el codigo
+    "outDir": "./dist",   
+    // El directorio donde se buscan ficheros TypeScript para compilar
+    "rootDir": "./src", 
+    // Habilita type checking para que los tipos de las variables se verifiquen a la hora de compilar, evitando
+    // asi errores
+    "strict": true,
+    // Solo recompilar ficheros si han cambiado
+    "incremental": true,
+    // Fichero donde se escribe informacion sobre la compilacion de los ficheros
+    "tsBuildInfoFile": "./buildcache",
+  }
+}
