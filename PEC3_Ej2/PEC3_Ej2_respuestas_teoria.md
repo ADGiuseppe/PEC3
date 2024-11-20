@@ -31,3 +31,11 @@ El segundo error es porque el array se declara como number[] y por tanto no pued
 El tercer error sucede porque la variable se declara como tipo never que significa que no puede tener ningun valor.
 
 El cuarto error sucede porque las variables de tipo unknown no se pueden usar en operaciones hasta que se conozca su tipo.
+
+# Clase vs interfaz
+
+En TypeScript las clases y las interfaces ambas se utilizan para definir la estructura de objetos.
+
+La diferencia es que los interfaces son contratos mientras que las clases son implementaciones.
+
+Por tanto las clases se pueden instanciar y las interfaces no. Cuando se debe implementar un contrato (una especificacion) que pueda ser implementada por clases es necesario usar un interfaz.
